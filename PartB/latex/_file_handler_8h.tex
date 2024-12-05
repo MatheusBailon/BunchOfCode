@@ -1,0 +1,59 @@
+\doxysection{File\+Handler.\+h File Reference}
+\hypertarget{_file_handler_8h}{}\label{_file_handler_8h}\index{FileHandler.h@{FileHandler.h}}
+
+
+Definition of the File\+Hander.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_file_handler_8h_a72a494dbef68dfd9ee300d39827de5c6}{create\+File}} (std\+::string filename="{}default\+File.\+txt"{})
+\begin{DoxyCompactList}\small\item\em Creates a file in the current directory. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_file_handler_8h_a4b16ed647f57106915470d8dba6996f8}{read\+File}} (std\+::string filename="{}default\+File.\+txt"{})
+\begin{DoxyCompactList}\small\item\em Reads the file content and print it to the terminal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Definition of the File\+Hander. 
+
+\begin{DoxyAuthor}{Author}
+Matheus Bailon 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+December 2024 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_file_handler_8h_a72a494dbef68dfd9ee300d39827de5c6}\index{FileHandler.h@{FileHandler.h}!createFile@{createFile}}
+\index{createFile@{createFile}!FileHandler.h@{FileHandler.h}}
+\doxysubsubsection{\texorpdfstring{createFile()}{createFile()}}
+{\footnotesize\ttfamily \label{_file_handler_8h_a72a494dbef68dfd9ee300d39827de5c6} 
+void create\+File (\begin{DoxyParamCaption}\item[{std\+::string}]{filename}{ = {\ttfamily "{}defaultFile.txt"{}}}\end{DoxyParamCaption})}
+
+
+
+Creates a file in the current directory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & The name of the file to be created. If not provided, a default value will be used. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{_file_handler_8h_a4b16ed647f57106915470d8dba6996f8}\index{FileHandler.h@{FileHandler.h}!readFile@{readFile}}
+\index{readFile@{readFile}!FileHandler.h@{FileHandler.h}}
+\doxysubsubsection{\texorpdfstring{readFile()}{readFile()}}
+{\footnotesize\ttfamily \label{_file_handler_8h_a4b16ed647f57106915470d8dba6996f8} 
+void read\+File (\begin{DoxyParamCaption}\item[{std\+::string}]{filename}{ = {\ttfamily "{}defaultFile.txt"{}}}\end{DoxyParamCaption})}
+
+
+
+Reads the file content and print it to the terminal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & The name of the file which will be read. If not provided, a default value will be used. \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.12.0" xml:lang="en-US">
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_array_custom_features_8cpp" kind="file"><name>ArrayCustomFeatures.cpp</name>
+    <member refid="_array_custom_features_8cpp_1ae258fe0e0182bd3fa0eb887f9b5cc087" kind="variable"><name>arraySize</name></member>
+    <member refid="_array_custom_features_8cpp_1a0622b6c491c5c883bcabf308da75ec6e" kind="function"><name>Sort</name></member>
+    <member refid="_array_custom_features_8cpp_1afa87b2a365953ace3799cd50d9766668" kind="function"><name>BinarySearch</name></member>
+  </compound>
+  <compound refid="_array_custom_features_8h" kind="file"><name>ArrayCustomFeatures.h</name>
+    <member refid="_array_custom_features_8h_1a0622b6c491c5c883bcabf308da75ec6e" kind="function"><name>Sort</name></member>
+    <member refid="_array_custom_features_8h_1afa87b2a365953ace3799cd50d9766668" kind="function"><name>BinarySearch</name></member>
+  </compound>
+  <compound refid="_file_handler_8cpp" kind="file"><name>FileHandler.cpp</name>
+    <member refid="_file_handler_8cpp_1a843b97cbd35934c9e8521ea58262402f" kind="function"><name>createFile</name></member>
+    <member refid="_file_handler_8cpp_1a7b17b0c78fa9e56e9e228bd54275cd93" kind="function"><name>readFile</name></member>
+  </compound>
+  <compound refid="_file_handler_8h" kind="file"><name>FileHandler.h</name>
+    <member refid="_file_handler_8h_1a72a494dbef68dfd9ee300d39827de5c6" kind="function"><name>createFile</name></member>
+    <member refid="_file_handler_8h_1a4b16ed647f57106915470d8dba6996f8" kind="function"><name>readFile</name></member>
+  </compound>
+  <compound refid="handling-2_d_array_8cpp" kind="file"><name>handling-2DArray.cpp</name>
+    <member refid="handling-2_d_array_8cpp_1a7528fb891037e622d625625ae32ac343" kind="function"><name>Handling2DArray</name></member>
+  </compound>
+  <compound refid="handling-2_d_array_8h" kind="file"><name>handling-2DArray.h</name>
+    <member refid="handling-2_d_array_8h_1a7528fb891037e622d625625ae32ac343" kind="function"><name>Handling2DArray</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_using_pass_by_reference_8cpp" kind="file"><name>UsingPassByReference.cpp</name>
+    <member refid="_using_pass_by_reference_8cpp_1a4264d6c55dd2839249ccd213f2581634" kind="function"><name>SecondFunction</name></member>
+    <member refid="_using_pass_by_reference_8cpp_1a25ba04cae324bafb84b183d94e63dac9" kind="function"><name>FirstFunction</name></member>
+  </compound>
+  <compound refid="_using_pass_by_reference_8h" kind="file"><name>UsingPassByReference.h</name>
+    <member refid="_using_pass_by_reference_8h_1a8fc67deda7d75e7ce40d9620d7fc4052" kind="function"><name>SecondFunction</name></member>
+    <member refid="_using_pass_by_reference_8h_1a25ba04cae324bafb84b183d94e63dac9" kind="function"><name>FirstFunction</name></member>
+  </compound>
+</doxygenindex>

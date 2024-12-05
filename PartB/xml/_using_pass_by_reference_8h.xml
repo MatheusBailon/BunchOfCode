@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_using_pass_by_reference_8h" kind="file" language="C++">
+    <compoundname>UsingPassByReference.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="_using_pass_by_reference_8cpp" local="yes">UsingPassByReference.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>UsingPassByReference.h</label>
+        <link refid="_using_pass_by_reference_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>UsingPassByReference.cpp</label>
+        <link refid="_using_pass_by_reference_8cpp"/>
+      </node>
+      <node id="1">
+        <label>UsingPassByReference.h</label>
+        <link refid="_using_pass_by_reference_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_using_pass_by_reference_8h_1a8fc67deda7d75e7ce40d9620d7fc4052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SecondFunction</definition>
+        <argsstring>(std::string &amp;changebleVariable)</argsstring>
+        <name>SecondFunction</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>changebleVariable</declname>
+        </param>
+        <briefdescription>
+<para>Function to receive the parameter by reference, using the option &apos;&amp;&apos; after the type of the parameter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>changebleVariable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variable which will receive a value, updated and keep it is value to next spet of the code </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UsingPassByReference.h" line="15" column="6" declfile="UsingPassByReference.h" declline="15" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_using_pass_by_reference_8h_1a25ba04cae324bafb84b183d94e63dac9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FirstFunction</definition>
+        <argsstring>()</argsstring>
+        <name>FirstFunction</name>
+        <briefdescription>
+<para>Function where the variable will be created and set up its first value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UsingPassByReference.h" line="20" column="6" bodyfile="UsingPassByReference.cpp" bodystart="19" bodyend="27" declfile="UsingPassByReference.h" declline="20" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Definition of the Using Pas By Reference. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Matheus Bailon </para>
+</simplesect>
+<simplesect kind="date"><para>December 2024 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*****************************************************************/</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_using_pass_by_reference_8h_1a8fc67deda7d75e7ce40d9620d7fc4052" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_using_pass_by_reference_8h_1a8fc67deda7d75e7ce40d9620d7fc4052" kindref="member">SecondFunction</ref>(std::string&amp;<sp/>changebleVariable);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_using_pass_by_reference_8h_1a25ba04cae324bafb84b183d94e63dac9" kindref="member">FirstFunction</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="UsingPassByReference.h"/>
+  </compounddef>
+</doxygen>

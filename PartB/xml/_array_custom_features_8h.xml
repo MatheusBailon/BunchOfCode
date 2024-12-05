@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_array_custom_features_8h" kind="file" language="C++">
+    <compoundname>ArrayCustomFeatures.h</compoundname>
+    <includedby refid="_array_custom_features_8cpp" local="yes">ArrayCustomFeatures.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>ArrayCustomFeatures.cpp</label>
+        <link refid="_array_custom_features_8cpp"/>
+      </node>
+      <node id="1">
+        <label>ArrayCustomFeatures.h</label>
+        <link refid="_array_custom_features_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_array_custom_features_8h_1a0622b6c491c5c883bcabf308da75ec6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sort</definition>
+        <argsstring>(int sortedArray[])</argsstring>
+        <name>Sort</name>
+        <param>
+          <type>int</type>
+          <declname>sortedArray</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+<para>Sort the given array in ascending order. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sortedArray</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The array to be sorted </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArrayCustomFeatures.h" line="14" column="6" bodyfile="ArrayCustomFeatures.cpp" bodystart="15" bodyend="31" declfile="ArrayCustomFeatures.h" declline="14" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_array_custom_features_8h_1afa87b2a365953ace3799cd50d9766668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BinarySearch</definition>
+        <argsstring>()</argsstring>
+        <name>BinarySearch</name>
+        <briefdescription>
+<para>Function responsible to execute the binary search from a specific array. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArrayCustomFeatures.h" line="19" column="6" bodyfile="ArrayCustomFeatures.cpp" bodystart="33" bodyend="78" declfile="ArrayCustomFeatures.h" declline="19" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Definition of the Array Custom. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Matheus Bailon </para>
+</simplesect>
+<simplesect kind="date"><para>December 2024 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*****************************************************************/</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_array_custom_features_8h_1a0622b6c491c5c883bcabf308da75ec6e" kindref="member">Sort</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sortedArray[]);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_array_custom_features_8h_1afa87b2a365953ace3799cd50d9766668" kindref="member">BinarySearch</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="ArrayCustomFeatures.h"/>
+  </compounddef>
+</doxygen>
